@@ -5,10 +5,10 @@ self.addEventListener("install", (e) => {
         "index.html",
         "style.css",
         "app.js",
-        //"manifest.js",
-        //"icon-144x144.png",
-        //"icon-192x192.png",
-        //"icon-512x512.png",
+        "manifest.js",
+        "icon-144x144.png",
+        "icon-192x192.png",
+        "icon-512x512.png",
         //"todolist.png",
         //"Add.png"
       ]);
