@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #ededed;
+}
+
+header {
+  background-color: #5a877d;
+  width: 100%;
+  height: 4rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 4rem;
+  height: 4rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  width: 100%;
+}
+
+nav ul li button {
+  background-color: #ededed;
+  border: none;
+  border-radius: 40px;
+  font-size: 1rem;
+  height: 25px;
+  font-weight: 600;
+  padding: 5px 5px;
+}
+
+@media (min-width: 767px) {
+  header {
+    height: 6rem;
+  }
+
+  nav img {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
+/* MAIN  */
+
+main {
+  text-align: center;
+  height: 100vh;
+}
+
+main#mainConteiner {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+#mainConteiner img {
+  width: 300px;
+  height: 280px;
+}
+
+#mainConteiner .caixaList {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 21rem;
+  height: 17rem;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+.caixaList .addLis {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px auto;
+  width: 17rem;
+  height: 3.12rem;
+}
+
+.addLis input {
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+}
+
+#mainConteiner .caixaList .addLis img {
+  width: 2rem;
+  height: 2rem;
+  margin: auto 0;
+}
+
+.caixaList .taskListConteiner {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 17rem;
+  width: 19rem;
+  overflow: auto;
+}
+
+.taskListConteiner ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+  list-style-type: none;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  overflow: auto;
+}
+
+.taskListConteiner ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+@media (min-width: 767px) {
+  #mainConteiner img {
+    width: 350px;
+    height: 280px;
+    margin-right: 0;
+  }
+
+  #mainConteiner .caixaList {
+    width: 30rem;
+    height: 15rem;
+  }
+
+  .caixaList .addLis {
+    width: 25rem;
+    height: 4rem;
+  }
+
+  .caixaList .taskListConteiner {
+    height: 18rem;
+    width: 25rem;
+  }
+
+  .addLis input {
+    width: 15rem;
+  }
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+  width: 100%;
+  height: 3rem;
+}
+
+@media (min-width: 767px) {
+  footer {
+    height: 5rem;
+    /* margin: auto; */
+  }
+}
