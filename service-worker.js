@@ -2,15 +2,15 @@ self.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open("ListaDeTarefas").then((cache) => {
       return cache.addAll([
-        "index.html",
-        "style.css",
-        "app.js",
-        "manifest.js",
-        "icon-144x144.png",
-        "icon-192x192.png",
-        "icon-512x512.png",
-        "todolist.png",
-        "Add.png"
+        "index.html"//,
+        //"style.css",
+        //"app.js",
+        //"manifest.js",
+        //"icon-144x144.png",
+        //"icon-192x192.png",
+        //"icon-512x512.png",
+        //"todolist.png",
+        //"Add.png"
       ]);
     })
   );
