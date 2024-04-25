@@ -9,8 +9,6 @@ self.addEventListener("install", (e) => {
         "icon-144x144.png",
         "icon-192x192.png",
         "icon-512x512.png",
-        //"todolist.png",
-        //"Add.png"
       ]);
     })
   );
