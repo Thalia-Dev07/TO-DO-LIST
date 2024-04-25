@@ -5,7 +5,7 @@ self.addEventListener("install", (e) => {
         "index.html",
         "style.css",
         "app.js",
-        //"manifest.js",
+        "manifest.json",
         "icon-144x144.png",
         "icon-192x192.png",
         "icon-512x512.png",
